@@ -27,7 +27,7 @@ ex. 요리 재료 + 재료를 다듬는 법
     - 무방향 그래프
 <br />
 
-![Data Structure](https://www.baseclass.io/newsletter/linear-data-structures/linear-non-linear.png)
+
 
 <br />
 
