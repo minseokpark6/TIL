@@ -12,6 +12,12 @@
 ### 1개부터
 ###### 6개까지 가능하다.
 ```
+# 제목은
+### 1개부터
+###### 6개까지 가능하다.
+
+<br />
+
 * '---' 또는 '===' 사용
 ```
 제목
@@ -19,6 +25,13 @@
 부제목
 ---
 ```
+제목
+===
+부제목
+---
+
+<br />
+
 ## 2. 목록
 * 순서가 있는 목록
 ```
@@ -47,3 +60,88 @@
     - 1-2-1번 글
 * 2번 글
   + 2-1번 글
+
+<br />
+
+## 3. 인용 문구
+```
+> blockQuote
+>> blockQuote
+```
+> blockquote
+>> blockquote
+
+<br />
+
+## 4. 코드 삽입
+* "```" 사용
+  + github에서는 코드 시작점에 사용하는 언어를 선언하여 문법 강조가 가능하다.
+
+<pre>
+<code>
+```python
+코드 입력
+```
+</code>
+</pre>
+
+```python
+# 원하는 웹페이지로 이동
+path =  "https://www.google.com/search?q=weather"
+driver.get(path)
+
+# css 선택자 사용, 원하는 클래스를 가진 웹 요소 접근 
+
+element = driver.find_element(By.ID, 'wob_tm').text
+# print(element)
+location = driver.find_element(By.CSS_SELECTOR, 'span.BBwThe').text
+
+print("-" * 30)
+print(f"현재 {location}의 온도는 {element}도 입니다.")
+
+driver.quit()
+
+```
+
+<br />
+
+* "pre 태그" 사용
+```
+<pre>
+<code>
+코드 입력
+</code>
+</pre>
+```
+
+<br />
+
+## 5. 수평선
+```
+***
+-----
+<hr/>
+```
+
+***
+-----
+<hr/>
+
+<br />
+
+## 6. 강조
+* *, ~ 사용
+```
+*이태릭체*
+**볼드체**
+***이태릭+볼드체***
+~~취소선~~
+```
+*이태릭체* 
+**볼드체**
+***이태릭+볼드체***
+~~취소선~~
+
+<br />
+
+
