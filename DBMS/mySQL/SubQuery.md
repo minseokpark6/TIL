@@ -14,6 +14,8 @@
 ## SELECT 절의 Sub QUERY
 > 결과값 ==> ***''하나의 값''***
 
+<br />
+
 ```sql
 select
 	number,
@@ -36,6 +38,8 @@ where name = "pikachu";
 ## FROM 절의 Sub Query
 > 결과값 ==> ***"하나의 테이블"***
 
+<br />
+
 ```sql
 select 
   number,
@@ -52,9 +56,11 @@ where height_rank = 3;
 <br />
 
 ## WHERE 절의 Sub Query
-> 결과값 ==> ***"하나의 컬럼"*** <br />
-  (단, exists / not exists는 제외 ==> ***여러 컬럼 가능***) <br />
-  (단, 비교 연산자 사용 시 ==> 반드시 ***"하나의 값"***)
+> 결과값 ==> ***"하나의 컬럼"*** 
+>> (단, exists / not exists는 제외 ==> ***여러 컬럼 가능***) <br />
+   (단, 비교 연산자 사용 시 ==> 반드시 ***"하나의 값"***)
+
+<br />
 
 ```sql
 select number
