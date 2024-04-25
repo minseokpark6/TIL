@@ -31,6 +31,7 @@ values = np.random.randint(1, 10, size = 5)
 print(values)
 print()
 
+# 출력
 print(add_five_to_array(values))
 ```
 
@@ -40,8 +41,11 @@ print(add_five_to_array(values))
 ```python
 import numpy as np
 
+# 메인 코드
 arr = np.random.randint(1, 10, size = 5)
 arr_added = arr + 5
+
+# 출력
 print(arr_added)
 
 # [ 9. 10. 12. 11. 13.]
