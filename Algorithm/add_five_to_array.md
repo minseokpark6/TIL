@@ -44,6 +44,8 @@ arr = np.random.randint(1, 10, size = 5)
 arr_added = arr + 5
 print(arr_added)
 
+# [ 9. 10. 12. 11. 13.]
+
 
 ```
 
