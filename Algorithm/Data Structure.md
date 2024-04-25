@@ -42,7 +42,7 @@ ex. 선형 리스트, 연결 리스트, 스택, 큐
 
 ### 데이터 추가_단순 구현
 
-```
+```python
 # 전역 변수부
 katok = ['다현', '정연', '쯔위', '사나', '지효']
 
@@ -58,7 +58,7 @@ print(katok)
 
 ### 데이터 삽입_단순 구현
 
-```
+```python
 # 1단계 : 빈 칸 추가
 katok.append(None)
 
@@ -80,7 +80,7 @@ print(katok)
 
 ### 데이터 삭제_단순 구현
 
-```
+```python
 # 1단계 : 데이터 지우기
 katok[4] = None
 
@@ -100,7 +100,7 @@ print(katok)
 
 ### 데이터 추가
 
-```
+```python
 # 함수 선언부
 def add_data(friend):
     # 1단계 빈칸 추가
@@ -126,7 +126,7 @@ print(katok)
 
 ### 데이터 삽입
 
-```
+```python
 # 함수 선언부
 
 def insert_data(position, friend):
@@ -145,7 +145,7 @@ def insert_data(position, friend):
 
 ### 데이터 삭제
 
-```
+```python
 def delete_data(position):
     # 1단계 : 데이터 삭제 
     katok[position] = None
@@ -162,7 +162,7 @@ def delete_data(position):
 
 ### 실제 사용 예시
 
-```
+```python
 # 전역 변수 선언
 katok = []
 select = -1
